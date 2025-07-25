@@ -1,3 +1,7 @@
+# readme.md - Ladder problem: basic recursion
+# Author: Jason (jasonftl) - 25th July 2025
+# https://github.com/jasonftl/learning
+
 # The Ladder Problem
 
 ## Problem Statement

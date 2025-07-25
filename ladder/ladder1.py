@@ -1,4 +1,6 @@
-# Date: 25th July 2025
+# ladder1.py - Ladder problem: basic recursion
+# Author: Jason (jasonftl) - 25th July 2025
+# https://github.com/jasonftl/learning
 
 def ladder1(input_number):
     if input_number > 2:

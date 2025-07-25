@@ -1,4 +1,6 @@
-# Date: 25th July 2025
+# ladder2.py - Ladder problem: basic recursion
+# Author: Jason (jasonftl) - 25th July 2025
+# https://github.com/jasonftl/learning
 
 class Ladder:
     def calculate(self, input_number):

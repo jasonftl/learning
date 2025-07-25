@@ -1,4 +1,7 @@
-# Date: 25th July 2025
+# ladder4.py - Ladder problem: basic recursion
+# Author: Jason (jasonftl) - 25th July 2025
+# https://github.com/jasonftl/learning
+
 import time
 from ladder1 import ladder1            # imported functions are lower snake_case
 from ladder2 import Ladder as Ladder2  # imported classes are PascalCase

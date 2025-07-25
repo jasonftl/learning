@@ -13,24 +13,24 @@ if __name__ == "__main__":
     print(f"Working out number of 1 and 2 step combinations for a ladder with {step_count} rungs.")
 
     # Test function approach (ladder1.py)
-    start_time = time.perf_counter_ns()
+    start_time1 = time.perf_counter_ns()
     result1 = ladder1(step_count)
-    end_time = time.perf_counter_ns()
-    function_time = end_time - start_time
+    end_time1 = time.perf_counter_ns()
+    function_time = end_time1 - start_time1
     
     # Test class without cache (ladder2.py)
     ladder2 = Ladder2()
-    start_time = time.perf_counter_ns()
+    start_time2 = time.perf_counter_ns()
     result2 = ladder2.calculate(step_count)
-    end_time = time.perf_counter_ns()
-    class_no_cache_time = end_time - start_time
+    end_time2 = time.perf_counter_ns()
+    class_no_cache_time = end_time2 - start_time2
     
     # Test class with cache (ladder3.py)
     ladder3 = Ladder3()
-    start_time = time.perf_counter_ns()
+    start_time3 = time.perf_counter_ns()
     result3 = ladder3.calculate(step_count)
-    end_time = time.perf_counter_ns()
-    class_with_cache_time = end_time - start_time
+    end_time3 = time.perf_counter_ns()
+    class_with_cache_time = end_time3 - start_time3
     
     # Output Results
     print(f"Time taken: {function_time:.0f} nanoseconds to provide {result1} result (uncached function).")

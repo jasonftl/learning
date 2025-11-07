@@ -11,6 +11,6 @@ def ladder1(input_number):
         return 1
 
 if __name__ == "__main__":
-    step_count = 36
+    step_count = 5
     ladder_result = ladder1(step_count)
     print(f"For {step_count} steps there are this many 1 and or 2 step options: {ladder_result}")
